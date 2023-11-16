@@ -1,0 +1,4 @@
+#Sun Nov 12 07:47:24 MST 2023
+base.0=/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

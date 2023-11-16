@@ -1,0 +1,213 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2021 The Android Open Source Project.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.lunchtray"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="19"
+24        android:targetSdkVersion="31" />
+25
+26    <uses-permission android:name="android.permission.REORDER_TASKS" />
+26-->[androidx.fragment:fragment-testing:1.4.1] /Users/aaronhove/.gradle/caches/transforms-3/ddbf81cd1fc6c6864bad2a24f1fc9f4d/transformed/fragment-testing-1.4.1/AndroidManifest.xml:25:5-72
+26-->[androidx.fragment:fragment-testing:1.4.1] /Users/aaronhove/.gradle/caches/transforms-3/ddbf81cd1fc6c6864bad2a24f1fc9f4d/transformed/fragment-testing-1.4.1/AndroidManifest.xml:25:22-69
+27
+28    <application
+28-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:19:5-36:19
+29        android:allowBackup="true"
+29-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:20:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.7.0] /Users/aaronhove/.gradle/caches/transforms-3/6881e294091336bc155fc90229d1e1f9/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:21:9-43
+34        android:label="@string/app_name"
+34-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:22:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:23:9-54
+36        android:supportsRtl="true"
+36-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:24:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.MySurveyBuddy" >
+38-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:25:9-51
+39        <activity
+39-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:26:9-35:20
+40            android:name="com.example.mysurveybuddy.MainActivity"
+40-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:27:13-66
+41            android:exported="true"
+41-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:29:13-36
+42            android:label="@string/app_name" >
+42-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:28:13-45
+43            <intent-filter>
+43-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:30:13-34:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:31:17-69
+44-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:31:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:33:17-77
+46-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:33:27-74
+47            </intent-filter>
+48        </activity>
+49        <activity
+49-->[androidx.fragment:fragment-testing:1.4.1] /Users/aaronhove/.gradle/caches/transforms-3/ddbf81cd1fc6c6864bad2a24f1fc9f4d/transformed/fragment-testing-1.4.1/AndroidManifest.xml:28:9-37:20
+50            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+50-->[androidx.fragment:fragment-testing:1.4.1] /Users/aaronhove/.gradle/caches/transforms-3/ddbf81cd1fc6c6864bad2a24f1fc9f4d/transformed/fragment-testing-1.4.1/AndroidManifest.xml:29:13-96
+51            android:exported="true"
+51-->[androidx.fragment:fragment-testing:1.4.1] /Users/aaronhove/.gradle/caches/transforms-3/ddbf81cd1fc6c6864bad2a24f1fc9f4d/transformed/fragment-testing-1.4.1/AndroidManifest.xml:30:13-36
+52            android:multiprocess="true"
+52-->[androidx.fragment:fragment-testing:1.4.1] /Users/aaronhove/.gradle/caches/transforms-3/ddbf81cd1fc6c6864bad2a24f1fc9f4d/transformed/fragment-testing-1.4.1/AndroidManifest.xml:31:13-40
+53            android:taskAffinity=""
+53-->[androidx.fragment:fragment-testing:1.4.1] /Users/aaronhove/.gradle/caches/transforms-3/ddbf81cd1fc6c6864bad2a24f1fc9f4d/transformed/fragment-testing-1.4.1/AndroidManifest.xml:32:13-36
+54            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+54-->[androidx.fragment:fragment-testing:1.4.1] /Users/aaronhove/.gradle/caches/transforms-3/ddbf81cd1fc6c6864bad2a24f1fc9f4d/transformed/fragment-testing-1.4.1/AndroidManifest.xml:33:13-78
+55            <intent-filter>
+55-->[androidx.fragment:fragment-testing:1.4.1] /Users/aaronhove/.gradle/caches/transforms-3/ddbf81cd1fc6c6864bad2a24f1fc9f4d/transformed/fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:31:17-69
+56-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:31:25-66
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->[androidx.test:core:1.4.0] /Users/aaronhove/.gradle/caches/transforms-3/1ad4c7ae10fd51855b7dca806b269a43/transformed/core-1.4.0/AndroidManifest.xml:27:9-34:20
+60            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+60-->[androidx.test:core:1.4.0] /Users/aaronhove/.gradle/caches/transforms-3/1ad4c7ae10fd51855b7dca806b269a43/transformed/core-1.4.0/AndroidManifest.xml:28:13-99
+61            android:exported="true"
+61-->[androidx.test:core:1.4.0] /Users/aaronhove/.gradle/caches/transforms-3/1ad4c7ae10fd51855b7dca806b269a43/transformed/core-1.4.0/AndroidManifest.xml:29:13-36
+62            android:theme="@android:style/Theme" >
+62-->[androidx.test:core:1.4.0] /Users/aaronhove/.gradle/caches/transforms-3/1ad4c7ae10fd51855b7dca806b269a43/transformed/core-1.4.0/AndroidManifest.xml:30:13-49
+63            <intent-filter>
+63-->[androidx.fragment:fragment-testing:1.4.1] /Users/aaronhove/.gradle/caches/transforms-3/ddbf81cd1fc6c6864bad2a24f1fc9f4d/transformed/fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:31:17-69
+64-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:31:25-66
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->[androidx.test:core:1.4.0] /Users/aaronhove/.gradle/caches/transforms-3/1ad4c7ae10fd51855b7dca806b269a43/transformed/core-1.4.0/AndroidManifest.xml:35:9-42:20
+68            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+68-->[androidx.test:core:1.4.0] /Users/aaronhove/.gradle/caches/transforms-3/1ad4c7ae10fd51855b7dca806b269a43/transformed/core-1.4.0/AndroidManifest.xml:36:13-95
+69            android:exported="true"
+69-->[androidx.test:core:1.4.0] /Users/aaronhove/.gradle/caches/transforms-3/1ad4c7ae10fd51855b7dca806b269a43/transformed/core-1.4.0/AndroidManifest.xml:37:13-36
+70            android:theme="@android:style/Theme" >
+70-->[androidx.test:core:1.4.0] /Users/aaronhove/.gradle/caches/transforms-3/1ad4c7ae10fd51855b7dca806b269a43/transformed/core-1.4.0/AndroidManifest.xml:38:13-49
+71            <intent-filter>
+71-->[androidx.fragment:fragment-testing:1.4.1] /Users/aaronhove/.gradle/caches/transforms-3/ddbf81cd1fc6c6864bad2a24f1fc9f4d/transformed/fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:31:17-69
+72-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:31:25-66
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->[androidx.test:core:1.4.0] /Users/aaronhove/.gradle/caches/transforms-3/1ad4c7ae10fd51855b7dca806b269a43/transformed/core-1.4.0/AndroidManifest.xml:43:9-50:20
+76            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+76-->[androidx.test:core:1.4.0] /Users/aaronhove/.gradle/caches/transforms-3/1ad4c7ae10fd51855b7dca806b269a43/transformed/core-1.4.0/AndroidManifest.xml:44:13-103
+77            android:exported="true"
+77-->[androidx.test:core:1.4.0] /Users/aaronhove/.gradle/caches/transforms-3/1ad4c7ae10fd51855b7dca806b269a43/transformed/core-1.4.0/AndroidManifest.xml:45:13-36
+78            android:theme="@android:style/Theme.Dialog" >
+78-->[androidx.test:core:1.4.0] /Users/aaronhove/.gradle/caches/transforms-3/1ad4c7ae10fd51855b7dca806b269a43/transformed/core-1.4.0/AndroidManifest.xml:46:13-56
+79            <intent-filter>
+79-->[androidx.fragment:fragment-testing:1.4.1] /Users/aaronhove/.gradle/caches/transforms-3/ddbf81cd1fc6c6864bad2a24f1fc9f4d/transformed/fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:31:17-69
+80-->/Users/aaronhove/AndroidStudioProjects/MySurveyBuddy/app/src/main/AndroidManifest.xml:31:25-66
+81            </intent-filter>
+82        </activity>
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.0.0] /Users/aaronhove/.gradle/caches/transforms-3/d038e145a94bbbc3fbb13bba45679e94/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.0.0] /Users/aaronhove/.gradle/caches/transforms-3/d038e145a94bbbc3fbb13bba45679e94/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+86            android:authorities="com.example.lunchtray.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.0.0] /Users/aaronhove/.gradle/caches/transforms-3/d038e145a94bbbc3fbb13bba45679e94/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.0.0] /Users/aaronhove/.gradle/caches/transforms-3/d038e145a94bbbc3fbb13bba45679e94/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.0.0] /Users/aaronhove/.gradle/caches/transforms-3/d038e145a94bbbc3fbb13bba45679e94/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.0.0] /Users/aaronhove/.gradle/caches/transforms-3/d038e145a94bbbc3fbb13bba45679e94/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.0.0] /Users/aaronhove/.gradle/caches/transforms-3/d038e145a94bbbc3fbb13bba45679e94/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/aaronhove/.gradle/caches/transforms-3/cc6ca525673765ff7986a1b22c67f447/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/aaronhove/.gradle/caches/transforms-3/cc6ca525673765ff7986a1b22c67f447/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/aaronhove/.gradle/caches/transforms-3/cc6ca525673765ff7986a1b22c67f447/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+96                android:value="androidx.startup" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+97        </provider>
+98
+99        <uses-library
+99-->[androidx.window:window:1.0.0] /Users/aaronhove/.gradle/caches/transforms-3/34eee5a2c89e89b10aed6af5db689716/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+100            android:name="androidx.window.extensions"
+100-->[androidx.window:window:1.0.0] /Users/aaronhove/.gradle/caches/transforms-3/34eee5a2c89e89b10aed6af5db689716/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+101            android:required="false" />
+101-->[androidx.window:window:1.0.0] /Users/aaronhove/.gradle/caches/transforms-3/34eee5a2c89e89b10aed6af5db689716/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+102        <uses-library
+102-->[androidx.window:window:1.0.0] /Users/aaronhove/.gradle/caches/transforms-3/34eee5a2c89e89b10aed6af5db689716/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+103            android:name="androidx.window.sidecar"
+103-->[androidx.window:window:1.0.0] /Users/aaronhove/.gradle/caches/transforms-3/34eee5a2c89e89b10aed6af5db689716/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+104            android:required="false" />
+104-->[androidx.window:window:1.0.0] /Users/aaronhove/.gradle/caches/transforms-3/34eee5a2c89e89b10aed6af5db689716/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+105
+106        <receiver
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+107            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+108            android:directBootAware="false"
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+109            android:enabled="true"
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+110            android:exported="true"
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+111            android:permission="android.permission.DUMP" >
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+113                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+116                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+119                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+122                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/aaronhove/.gradle/caches/transforms-3/670269f5e88bcc89d869389c6bc16206/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+123            </intent-filter>
+124        </receiver>
+125    </application>
+126
+127</manifest>

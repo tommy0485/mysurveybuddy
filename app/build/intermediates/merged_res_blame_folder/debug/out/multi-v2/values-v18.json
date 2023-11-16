@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.lunchtray.app-mergeDebugResources-49:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "/Users/aaronhove/.gradle/caches/transforms-3/a97eb3305ae5b1ba7e874823fae9b9e8/transformed/appcompat-1.4.1/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}
