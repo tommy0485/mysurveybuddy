@@ -45,7 +45,7 @@ class OrderViewModel : ViewModel() {
             previousRepScore = _rep.value!!.score
 
         }
-        // TODO: if _rep.value is not null, set the previous rep score to the current
+        // if _rep.value is not null, set the previous rep score to the current
         //  rep score.
 
         if (_total.value != null) {
@@ -53,12 +53,12 @@ class OrderViewModel : ViewModel() {
 
         }
 
-        // TODO: if _total.value is not null subtract the previous rep score from the current
+        // if _total.value is not null subtract the previous rep score from the current
         //  total value. This ensures that we only give a score for the currently selected rep value.
 
         _rep.value = surveyItems[rep]
 
-        // TODO: set the current rep value to the survey item corresponding to the passed in string
+        // set the current rep value to the survey item corresponding to the passed in string
 
         updateTotal(_rep.value!!.score)
 
@@ -151,6 +151,6 @@ class OrderViewModel : ViewModel() {
         _recommend.value = null
         _total.value = 0.0
 
-        // TODO: Reset all values associated with a survey
+        // Reset all values associated with a survey
     }
 }
