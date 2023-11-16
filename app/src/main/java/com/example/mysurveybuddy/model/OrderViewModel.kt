@@ -62,7 +62,7 @@ class OrderViewModel : ViewModel() {
 
         updateTotal(_rep.value!!.score)
 
-        // TODO: update the total to reflect the score of the selected rep score.
+        // update the total to reflect the score of the selected rep score.
 
     }
 
@@ -73,23 +73,23 @@ class OrderViewModel : ViewModel() {
         if (_product.value != null) {
             previousProductScore = _product.value!!.score
         }
-        // TODO: if _product.value is not null, set the previous product score to the current product score.
+        // if _product.value is not null, set the previous product score to the current product score.
 
         if (_total.value != null) {
             _total.value = _total.value!! - previousProductScore
 
         }
 
-        // TODO: if _total.value is not null subtract the previous product score from the current
+        // if _total.value is not null subtract the previous product score from the current
         //  total value. This ensures that we only give a score for the currently selected product score.
 
         _product.value = surveyItems[product]
 
-        // TODO: set the current product value to the survey item corresponding to the passed in string
+        // set the current product value to the survey item corresponding to the passed in string
 
         updateTotal(_product.value!!.score)
 
-        // TODO: update the total to reflect the score of the selected product.
+        // update the total to reflect the score of the selected product.
     }
 
     /**
@@ -100,7 +100,7 @@ class OrderViewModel : ViewModel() {
             previousRecommendScore = _recommend.value!!.score
         }
 
-        // TODO: if recommend.value is not null, set the previous recommend score to the
+        // if recommend.value is not null, set the previous recommend score to the
         //  current recommend score.
 
         if (_total.value != null) {
@@ -108,17 +108,17 @@ class OrderViewModel : ViewModel() {
 
         }
 
-        // TODO: if _recommend.value is not null subtract the previous recommend score from
+        // if _recommend.value is not null subtract the previous recommend score from
         //  the current total value. This ensures that we only give a score for the currently selected
         //  recommend score.
 
         _recommend.value = surveyItems[recommend]
 
-        // TODO: set the current recommend value to the survey item corresponding to the passed in
+        // set the current recommend value to the survey item corresponding to the passed in
         //  string
 
         updateTotal(_recommend.value!!.score)
-        // TODO: update the total to reflect the score of the selected recommend score.
+        // update the total to reflect the score of the selected recommend score.
     }
 
     /**
@@ -132,7 +132,7 @@ class OrderViewModel : ViewModel() {
         else{
             _total.value = itemPrice
         }
-        // TODO: if _total.value is not null, update it to reflect the score of the recently
+        // if _total.value is not null, update it to reflect the score of the recently
         //  added survey item.
         //  Otherwise, set _total.value to equal the score of the survey item.
 
